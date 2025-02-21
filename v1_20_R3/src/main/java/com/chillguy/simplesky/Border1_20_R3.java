@@ -1,6 +1,6 @@
 package com.chillguy.simplesky;
 
-import com.venned.nms.BorderAPI;
+import com.chillguy.nms.BorderAPI;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.*;
 import net.minecraft.server.network.ServerPlayerConnection;

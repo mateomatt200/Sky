@@ -1,4 +1,4 @@
-package com.venned.nms;
+package com.chillguy.nms;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

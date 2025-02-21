@@ -1,0 +1,4 @@
+name: NMS
+version: '1.0-SNAPSHOT'
+main: com.venned.nms.Main
+api-version: '1.20'

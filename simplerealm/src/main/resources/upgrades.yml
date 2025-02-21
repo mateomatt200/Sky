@@ -1,0 +1,584 @@
+levels:
+  default:
+    '1':
+      cost: 0
+      bordersize: 33
+      width: 30
+      adjustment: 3
+      move-border: -5
+      maxplayer: 3
+      limitations:
+        - STICKY_PISTON:80
+        - OBSERVER:80
+        - DROPPER:10
+        - PISTON:60
+        - HOPPER:20
+        - DIORITE:25
+        - SPAWNER:2
+        - REDSTONE_TORCH:20
+    '2':
+      cost: 25000
+      bordersize: 43
+      width: 38
+      maxplayer: 3
+      adjustment: 5
+      move-border: -5
+      limitations:
+        - STICKY_PISTON:100
+        - OBSERVER:100
+        - DROPPER:25
+        - PISTON:100
+        - HOPPER:40
+        - DIORITE:50
+        - SPAWNER:5
+        - REDSTONE_TORCH:40
+    '3':
+      cost: 50000
+      bordersize: 53
+      width: 46
+      maxplayer: 3
+      adjustment: 7
+      move-border: -5
+      limitations:
+        - STICKY_PISTON:200
+        - OBSERVER:200
+        - DROPPER:50
+        - PISTON:200
+        - HOPPER:80
+        - DIORITE:100
+        - SPAWNER:10
+        - REDSTONE_TORCH:80
+
+    '4':
+      cost: 75000
+      bordersize: 73
+      width: 54
+      maxplayer: 3
+      adjustment: 0
+      move-border: -5
+      limitations:
+        - STICKY_PISTON:300
+        - OBSERVER:300
+        - DROPPER:75
+        - PISTON:300
+        - HOPPER:120
+        - DIORITE:150
+        - SPAWNER:15
+        - REDSTONE_TORCH:120
+    '5':
+      cost: 150000
+      bordersize: 83
+      width: 62
+      maxplayer: 3
+      adjustment: 2
+      move-border: -5
+      limitations:
+        - STICKY_PISTON:400
+        - OBSERVER:400
+        - DROPPER:100
+        - PISTON:400
+        - HOPPER:160
+        - DIORITE:200
+        - SPAWNER:20
+        - REDSTONE_TORCH:160
+    '6':
+      cost: 250000
+      bordersize: 103
+      width: 70
+      maxplayer: 3
+      adjustment: -5
+      move-border: -5
+      limitations:
+        - STICKY_PISTON:500
+        - OBSERVER:500
+        - DROPPER:125
+        - PISTON:500
+        - HOPPER:200
+        - DIORITE:250
+        - SPAWNER:25
+        - REDSTONE_TORCH:200
+  hero:
+    '1':
+      cost: 0
+      bordersize: 43
+      width: 35
+      maxplayer: 3
+      adjustment: -3
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:400
+        - OBSERVER:400
+        - DROPPER:100
+        - PISTON:400
+        - HOPPER:160
+        - DIORITE:200
+        - SPAWNER:20
+        - REDSTONE_TORCH:160
+    '2':
+      cost: 50000
+      bordersize: 53
+      width: 46
+      maxplayer: 3
+      adjustment: 3
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:600
+        - OBSERVER:600
+        - DROPPER:150
+        - PISTON:600
+        - HOPPER:240
+        - DIORITE:300
+        - SPAWNER:30
+        - REDSTONE_TORCH:240
+    '3':
+      cost: 75000
+      bordersize: 73
+      width: 54
+      maxplayer: 3
+      adjustment: 0
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:700
+        - OBSERVER:700
+        - DROPPER:175
+        - PISTON:700
+        - HOPPER:280
+        - DIORITE:350
+        - SPAWNER:35
+        - REDSTONE_TORCH:280
+    '4':
+      cost: 125000
+      bordersize: 83
+      width: 62
+      maxplayer: 3
+      adjustment: -2
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:800
+        - OBSERVER:800
+        - DROPPER:200
+        - PISTON:800
+        - HOPPER:320
+        - DIORITE:400
+        - SPAWNER:40
+        - REDSTONE_TORCH:320
+    '5':
+      cost: 250000
+      bordersize: 103
+      width: 70
+      maxplayer: 3
+      adjustment: -10
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:900
+        - OBSERVER:900
+        - DROPPER:225
+        - PISTON:360
+        - HOPPER:450
+        - DIORITE:450
+        - SPAWNER:45
+        - REDSTONE_TORCH:360
+    '6':
+      cost: 500000
+      bordersize: 153
+      width: 120
+      maxplayer: 3
+      adjustment: -5
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1000
+        - OBSERVER:1000
+        - DROPPER:250
+        - PISTON:1000
+        - HOPPER:400
+        - DIORITE:500
+        - SPAWNER:50
+        - REDSTONE_TORCH:400
+  knight:
+    '1':
+      cost: 0
+      bordersize: 53
+      width: 40
+      maxplayer: 4
+      adjustment: -8
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:800
+        - OBSERVER:800
+        - DROPPER:200
+        - PISTON:800
+        - HOPPER:320
+        - DIORITE:400
+        - SPAWNER:40
+        - REDSTONE_TORCH:320
+    '2':
+      cost: 75000
+      bordersize: 73
+      width: 54
+      maxplayer: 4
+      adjustment: -9
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1100
+        - OBSERVER:1100
+        - DROPPER:275
+        - PISTON:1100
+        - HOPPER:440
+        - DIORITE:550
+        - SPAWNER:55
+        - REDSTONE_TORCH:440
+    '3':
+      cost: 125000
+      bordersize: 83
+      width: 62
+      maxplayer: 4
+      adjustment: -7
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1200
+        - OBSERVER:1200
+        - DROPPER:300
+        - PISTON:1200
+        - HOPPER:480
+        - DIORITE:600
+        - SPAWNER:60
+        - REDSTONE_TORCH:480
+    '4':
+      cost: 250000
+      bordersize: 103
+      width: 70
+      maxplayer: 4
+      adjustment: -11
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1300
+        - OBSERVER:1300
+        - DROPPER:325
+        - PISTON:1300
+        - HOPPER:520
+        - DIORITE:650
+        - SPAWNER:65
+        - REDSTONE_TORCH:520
+    '5':
+      cost: 500000
+      bordersize: 153
+      width: 120
+      maxplayer: 4
+      adjustment: -10
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1400
+        - OBSERVER:1400
+        - DROPPER:350
+        - PISTON:1400
+        - HOPPER:560
+        - DIORITE:700
+        - SPAWNER:75
+        - REDSTONE_TORCH:560
+    '6':
+      cost: 750000
+      bordersize: 203
+      width: 170
+      maxplayer: 4
+      adjustment: -5
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1500
+        - OBSERVER:1500
+        - DROPPER:375
+        - PISTON:1500
+        - HOPPER:600
+        - DIORITE:750
+        - SPAWNER:80
+        - REDSTONE_TORCH:600
+  lord:
+    '1':
+      cost: 0
+      bordersize: 63
+      width: 45
+      maxplayer: 4
+      adjustment: -13
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1400
+        - OBSERVER:1400
+        - DROPPER:350
+        - PISTON:1400
+        - HOPPER:560
+        - DIORITE:700
+        - SPAWNER:75
+        - REDSTONE_TORCH:560
+    '2':
+      cost: 125000
+      bordersize: 83
+      width: 62
+      maxplayer: 4
+      adjustment: -12
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1600
+        - OBSERVER:1600
+        - DROPPER:400
+        - PISTON:1600
+        - HOPPER:640
+        - DIORITE:800
+        - SPAWNER:85
+        - REDSTONE_TORCH:650
+    '3':
+      cost: 250000
+      bordersize: 103
+      width: 70
+      maxplayer: 4
+      adjustment: -19
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1700
+        - OBSERVER:1700
+        - DROPPER:425
+        - PISTON:1700
+        - HOPPER:680
+        - DIORITE:850
+        - SPAWNER:90
+        - REDSTONE_TORCH:700
+    '4':
+      cost: 500000
+      bordersize: 153
+      width: 120
+      maxplayer: 4
+      adjustment: -14
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1800
+        - OBSERVER:1800
+        - DROPPER:450
+        - PISTON:1800
+        - HOPPER:720
+        - DIORITE:900
+        - SPAWNER:95
+        - REDSTONE_TORCH:750
+    '5':
+      cost: 750000
+      bordersize: 203
+      width: 170
+      maxplayer: 4
+      adjustment: -10
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1900
+        - OBSERVER:1900
+        - DROPPER:475
+        - PISTON:1900
+        - HOPPER:760
+        - DIORITE:950
+        - SPAWNER:100
+        - REDSTONE_TORCH:800
+    '6':
+      cost: 1500000
+      bordersize: 253
+      width: 220
+      maxplayer: 4
+      adjustment: -5
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2000
+        - OBSERVER:2000
+        - DROPPER:500
+        - PISTON:2000
+        - HOPPER:800
+        - DIORITE:1000
+        - SPAWNER:105
+        - REDSTONE_TORCH:850
+  duke:
+    '1':
+      cost: 0
+      bordersize: 73
+      width: 50
+      maxplayer: 5
+      adjustment: -18
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:1900
+        - OBSERVER:1900
+        - DROPPER:475
+        - PISTON:1900
+        - HOPPER:760
+        - DIORITE:950
+        - SPAWNER:100
+        - REDSTONE_TORCH:800
+    '2':
+      cost: 250000
+      bordersize: 103
+      width: 70
+      maxplayer: 6
+      adjustment: -23
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2100
+        - OBSERVER:2100
+        - DROPPER:525
+        - PISTON:2100
+        - HOPPER:840
+        - DIORITE:1050
+        - SPAWNER:110
+        - REDSTONE_TORCH:900
+    '3':
+      cost: 500000
+      bordersize: 153
+      width: 120
+      maxplayer: 6
+      adjustment: -19
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2200
+        - OBSERVER:2200
+        - DROPPER:550
+        - PISTON:2200
+        - HOPPER:880
+        - DIORITE:1100
+        - SPAWNER:115
+        - REDSTONE_TORCH:950
+    '4':
+      cost: 750000
+      bordersize: 203
+      width: 170
+      maxplayer: 6
+      adjustment: -14
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2300
+        - OBSERVER:2300
+        - DROPPER:600
+        - PISTON:2300
+        - HOPPER:920
+        - DIORITE:1150
+        - SPAWNER:120
+        - REDSTONE_TORCH:1000
+    '5':
+      cost: 1500000
+      bordersize: 253
+      width: 220
+      maxplayer: 6
+      adjustment: -10
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2400
+        - OBSERVER:2400
+        - DROPPER:625
+        - PISTON:2400
+        - HOPPER:960
+        - DIORITE:1200
+        - SPAWNER:125
+        - REDSTONE_TORCH:1050
+    '6':
+      cost: 3000000
+      bordersize: 303
+      width: 270
+      maxplayer: 6
+      adjustment: -5
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2500
+        - OBSERVER:2500
+        - DROPPER:650
+        - PISTON:2500
+        - HOPPER:1000
+        - DIORITE:1250
+        - SPAWNER:130
+        - REDSTONE_TORCH:1100
+  skygod:
+    '1':
+      cost: 0
+      bordersize: 83
+      width: 55
+      maxplayer: 8
+      adjustment: -23
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2400
+        - OBSERVER:2400
+        - DROPPER:625
+        - PISTON:2400
+        - HOPPER:960
+        - DIORITE:1200
+        - SPAWNER:125
+        - REDSTONE_TORCH:1050
+    '2':
+      cost: 500000
+      bordersize: 153
+      width: 120
+      maxplayer: 8
+      adjustment: -23
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2600
+        - OBSERVER:2600
+        - DROPPER:675
+        - PISTON:2600
+        - HOPPER:1040
+        - DIORITE:1300
+        - SPAWNER:135
+        - REDSTONE_TORCH:1150
+    '3':
+      cost: 750000
+      bordersize: 203
+      width: 170
+      maxplayer: 8
+      adjustment: -19
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2700
+        - OBSERVER:2700
+        - DROPPER:700
+        - PISTON:2700
+        - HOPPER:1080
+        - DIORITE:1350
+        - SPAWNER:140
+        - REDSTONE_TORCH:1200
+    '4':
+      cost: 1500000
+      bordersize: 253
+      width: 220
+      maxplayer: 8
+      adjustment: -14
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2800
+        - OBSERVER:2800
+        - DROPPER:725
+        - PISTON:2800
+        - HOPPER:1120
+        - DIORITE:1400
+        - SPAWNER:145
+        - REDSTONE_TORCH:1250
+    '5':
+      cost: 3000000
+      bordersize: 303
+      width: 270
+      maxplayer: 8
+      adjustment: -10
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2900
+        - OBSERVER:2900
+        - DROPPER:750
+        - PISTON:2900
+        - HOPPER:1160
+        - DIORITE:1450
+        - SPAWNER:150
+        - REDSTONE_TORCH:1300
+    '6':
+      cost: 4000000
+      bordersize: 403
+      width: 370
+      maxplayer: 8
+      adjustment: -6
+      move-border: 5
+      limitations:
+        - STICKY_PISTON:2700
+        - OBSERVER:2700
+        - DROPPER:700
+        - PISTON:2700
+        - HOPPER:1080
+        - DIORITE:1350
+        - SPAWNER:140
+        - REDSTONE_TORCH:1200

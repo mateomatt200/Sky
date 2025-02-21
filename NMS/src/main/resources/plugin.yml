@@ -1,0 +1,4 @@
+name: NMS
+version: '${project.version}'
+main: com.chillguy.nms.Main
+api-version: '1.20'

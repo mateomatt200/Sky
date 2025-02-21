@@ -1,0 +1,106 @@
+themes:
+  basic:
+    path: basictheme.schematic
+    blocks_infrontof_spawn: 8
+    permission: realm.theme.other
+    item:
+      name: '&eBasic Theme'
+      material: GRASS
+      durability: 1
+      lore:
+        - '§7The theme of the basic island'
+config:
+  #The space beetween each realm
+  spacing: 500
+  #The world where realms will be created
+  world: AdvancedRealmWorld
+  spawn:
+    world: world
+    x: -1
+    y: 66
+    z: -1
+    yaw: 0
+    pitch: 0
+
+gui:
+  realmgui:
+    home:
+      item: GRASS_BLOCK
+      name: "&aHome"
+      data: 0
+      lore:
+        - "&7Click to teleport to your realm."
+      slot: 10
+      clickmessage: "&aYou teleported to your realm!"
+    banned:
+      item: BARRIER
+      name: "&cBanned Players"
+      data: 0
+      lore:
+        - "&7Manage banned players of the realm."
+      slot: 11
+    privacy:
+      item: BOOK
+      name: "&ePrivacy Settings"
+      data: 0
+      lore:
+        - "&7Toggle privacy settings of the realm."
+      slot: 12
+      clickmessage: "&aPrivacy setting toggled!"
+    members:
+      item: PLAYER_HEAD
+      name: "&bMembers"
+      data: 0
+      lore:
+        - "&7View and manage realm members."
+      slot: 13
+    theme:
+      item: MAP
+      name: "&dTheme"
+      data: 0
+      lore:
+        - "&7Customize your realm's theme."
+      slot: 14
+    upgrade:
+      item: EMERALD_BLOCK
+      name: "&6Upgrade Realm"
+      data: 0
+      lore:
+        - "&7Upgrade your realm to the next level."
+      maxlevellore:
+        - "&cThis realm is already at max level!"
+      slot: 15
+    back:
+      item: ARROW
+      name: "&cBack"
+      data: 0
+      lore:
+        - "&7Return to the previous menu."
+      slot: 16
+    default:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ""
+      data: 0
+      lore:
+        - ""
+  back:
+    item: ARROW
+    name: "&cBack"
+    data: 0
+    lore:
+      - "&7Return to the previous menu."
+    slot: 22
+  default:
+    item: BLACK_STAINED_GLASS_PANE
+    name: ""
+    data: 0
+    lore:
+      - ""
+
+vote:
+  #Cooldown is handled like that "days/hours/minutes/seconds"
+  cooldown: "0d/7h/0m/0s"
+  #people can vote multiple times for the same realm
+  multiplevote: false
+  #people can vote for their own realm
+  ownedvote: false

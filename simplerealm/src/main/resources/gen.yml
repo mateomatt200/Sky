@@ -1,0 +1,42 @@
+tiers:
+  '0':
+    price: 0
+    chances:
+      - COAL_ORE:20
+      - IRON_ORE:5
+      - GOLD_ORE:0
+      - LAPIS_ORE:0
+      - REDSTONE_ORE:0
+      - DIAMOND_ORE:0
+      - EMERALD_ORE:0
+  '1':
+    price: 5000
+    chances:
+      - COAL_ORE:20
+      - IRON_ORE:10
+      - GOLD_ORE:5
+      - LAPIS_ORE:2
+      - REDSTONE_ORE:0
+      - DIAMOND_ORE:0
+      - EMERALD_ORE:0
+  '2':
+    price: 20000
+    chances:
+      - COAL_ORE:10
+      - IRON_ORE:20
+      - GOLD_ORE:10
+      - LAPIS_ORE:5
+      - REDSTONE_ORE:2
+      - DIAMOND_ORE:5
+      - EMERALD_ORE:2
+  '3':
+    price: 35000
+    chances:
+      - COAL_ORE:5
+      - IRON_ORE:30
+      - GOLD_ORE:25
+      - LAPIS_ORE:10
+      - REDSTONE_ORE:10
+      - DIAMOND_ORE:10
+      - EMERALD_ORE:10
+
